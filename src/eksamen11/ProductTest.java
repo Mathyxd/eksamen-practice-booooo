@@ -15,7 +15,15 @@ public class ProductTest {
         products.get(1).reduceStock(50);
         System.out.println(products.get(1));
 
-        products.get(0).reduceStock(1);
+        products.get(0).reduceStock(3);
         System.out.println(products.get(0));
+
+        Product highestPrice = products.get(0);
+        for (Product p : products) {
+            if (p.getPrice() > highestPrice.getPrice()) {
+                highestPrice = p;
+            }
+        }
+        System.out.println("dyreste produkt: " + highestPrice);
     }
 }
