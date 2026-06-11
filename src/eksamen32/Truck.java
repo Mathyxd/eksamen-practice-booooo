@@ -1,4 +1,4 @@
-package eksamen24;
+package eksamen32;
 
 public class Truck extends Vehicle {
     private int cargoCapacity;

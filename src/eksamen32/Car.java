@@ -1,6 +1,6 @@
-package eksamen24;
+package eksamen32;
 
-public class Car extends Vehicle{
+public class Car extends Vehicle {
     private int passengerCount;
 
     public Car(int fuel, int speed, int passengerCount) {

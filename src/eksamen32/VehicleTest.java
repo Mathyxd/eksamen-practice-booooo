@@ -1,4 +1,4 @@
-package eksamen24;
+package eksamen32;
 
 import java.util.ArrayList;
 
